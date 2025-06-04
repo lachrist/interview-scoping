@@ -1,0 +1,28 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.38.0.
+--
+-- see: https://github.com/sol/hpack
+
+name:           interview-scoping
+version:        0.0.0.0
+build-type:     Simple
+
+library
+  exposed-modules:
+      Expr
+      Main
+      Scope
+      ScopeRecur
+      SolRecur
+      SolWriter
+  other-modules:
+      Paths_interview_scoping
+  hs-source-dirs:
+      src
+  ghc-options: -Wall
+  build-depends:
+      base
+    , containers
+    , mtl
+  default-language: Haskell2010
